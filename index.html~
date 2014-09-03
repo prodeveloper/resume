@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jacob Chencha</title>
+    <link href="http://bootswatch.com/lumen/bootstrap.min.css" rel="stylesheet" />
+   <style>
+		section header h3 {
+		  margin: 0;
+		}
+		section > div {
+		  border-left: 1px solid #efefef;
+		}
+		section {
+		  min-height: 100px;
+		  margin-bottom: 30px;
+		}
+		section div > h3 {
+		  padding: 0;
+		  margin: 0;
+		}
+    </style>
+
+  
+  </head>
+  <body>
+    <div class="container">
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="row">
+        <div class="col-md-6">
+        <h1>Jacob Chencha</h1>
+
+        <h2>Nairobi</h2>
+        </div>
+        <div class="col-md-6">
+        <img class="media-object img-circle pull-right" src="http://www.gravatar.com/avatar/203c8720879b9189a9f21837b5553953.jpg" alt="64x64" src="" style="width: 100px; height: 100px; margin-top: 20px;">
+
+        </div>
+        </div>
+      <hr style="color: #ccc; height: 4px;" />
+      <section class="row">
+        <header class="col-md-3">
+          <h3>About</h3>
+        </header>
+        <div class="col-md-9">
+        <p>I hold a BSC Actuarial Science Degree from University of Nairobi, Part 1 CPA qualification from KASNEB and two passed SOA papers. I am a self taught developer and currently work as consultant developer for iHub Nairobi. My work at the iHub primarily involves maintaining and building of new services that serve the tech community in Africa. My non-work interests generally revolve around astronomy and physics. My workflow philosophy, if it can be automated, automate it! </p>
+        <strong>Twitter:</strong> <a href="https://twitter.com/jchex">@jchex</a><br />
+        <strong>Github:</strong> <a href="https://github.com/prodeveloper">prodeveloper</a><br />
+        </div>
+      </section>
+      <section class="row">
+        <header class="col-md-3">
+          <h3>Work Experience</h3>
+        </header>
+        <div class="col-md-9">
+          <div class="skills">
+            <h3>iHub</h3>
+            <strong>Consultant Software Engineer</strong>
+            <p>2013 - To Date</p>
+            <p>Lead development and maintainance of iHub community projects</p>
+            <ul>
+              <li>Spearheaded development of community portal. http:&#x2F;&#x2F;community.ihub.co.ke&#x2F;login</li>
+              <li>Introduced HA Proxy within the server architecture to enable maximum use of all the clients servers</li>
+              <li>Brought all the code to version control and introduced Golden Master tests for existing legacy software</li>
+            </ul>
+            <hr />
+          </div>
+        </div>
+      </section>
+
+      <section class="row">
+        <header class="col-md-3">
+          <h3>Education</h3>
+        </header>
+        <div class="col-md-9">
+          <div class="skills">
+            <h3>University of Nairobi</h3>
+            <h4>Actuarial Science, Bachelor</h4>
+            <p>2007 - 2011</p>
+            <p></p>
+            <ul>
+            </ul>
+            <hr />
+          </div>
+        </div>
+      </section>
+      <section class="row">
+        <header class="col-md-3">
+          <h3>Skills</h3>
+        </header>
+        <div class="col-md-9">
+          <div class="row-fluid skills">
+            <ul class="col-md-6">
+
+              <li>
+                <h4>Web Development</h4>
+                <ul>
+                  <li>Laravel</li>
+                  <li>PHP</li>
+                  <li>Nginx</li>
+                  <li>MySQL&#x2F;Postgres</li>
+                  <li>Beanstalkd</li>
+                  <li>PHPCI</li>
+                  <li>Vagrant (Homestead)</li>
+                  <li>Codeception</li>
+                  <li>Envoy</li>
+                  <li>Git</li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="col-md-6">
+
+              <li>
+                <h4>API Development</h4>
+                <ul>
+                  <li>REST</li>
+                  <li>API Centric Design</li>
+                  <li>JSON</li>
+                  <li>JSON-RPC</li>
+                  <li>XMLRPC</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="row">
+        <header class="col-md-3">
+          <h3>References</h3>
+        </header>
+        <div class="col-md-9">
+          <div class="row-fluid skills">
+
+            <p>Jacob is a true professional. My job was done perfectly, on time, and with no trouble at all. I totally recommend Jacob, and will use him whenever I can! -
+              <strong>Donna Hoppestad</strong>
+            </p>
+
+            <p>Jacob Chencha is Bad Ass You NEED on your team -
+              <strong>Azeem Ahmed</strong>
+            </p>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </div>
+</div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+  </body>
+</html>

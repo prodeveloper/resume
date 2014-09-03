@@ -1,156 +1,533 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Jacob Chencha</title>
-    <link href="http://bootswatch.com/lumen/bootstrap.min.css" rel="stylesheet" />
-   <style>
-		section header h3 {
-		  margin: 0;
-		}
-		section > div {
-		  border-left: 1px solid #efefef;
-		}
-		section {
-		  min-height: 100px;
-		  margin-bottom: 30px;
-		}
-		section div > h3 {
-		  padding: 0;
-		  margin: 0;
-		}
-    </style>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title></title>
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <style>
+            body {
+    font-family: 'Lato';
+    background: #F0F0F0;
+    color: #333;
+}
 
-  
-  </head>
-  <body>
-    <div class="container">
-  <div class="row">
-    <div class="col-md-8 col-md-offset-2">
-      <div class="row">
-        <div class="col-md-6">
-        <h1>Jacob Chencha</h1>
+.main {
+	padding: 5px;
+}
 
-        <h2>Nairobi</h2>
+.card {
+	background: white;
+	border: 1px solid #E6E6E6;
+    border-radius: 3px;
+    min-height: 300px;
+    padding: 10px;
+}
+
+.card-nested {
+    min-height: 0;
+    margin-bottom: 10px;
+    border-width: 1px 0 0 0;
+}
+
+.card-work-experience:last-child {
+    margin-bottom: 0;
+}
+
+.background-card {
+    padding: 10px 20px;
+}
+
+.card-wrapper {
+    padding: 5px;
+}
+
+.profile-pic {
+    padding: 20px 0;
+}
+
+.text-bolder {
+    font-weight: bold;
+}
+
+.contact-details .detail {
+    display: table;
+    padding: 10px 0;
+}
+
+.contact-details .detail .icon {
+    padding: 0 10px;
+    color: #707070;
+}
+
+.contact-details .detail .icon, .contact-details .detail .info {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.contact-details .detail .info{
+	font-size: 0.8em;
+}
+
+.social-link {
+	margin-left: 5px;
+}
+
+.social-link:first-child {
+	margin-left: 0;
+}
+
+.social-link:hover {
+	text-decoration: none;
+}
+
+.link-github {
+	color: #454545;
+}
+
+.link-github:hover {
+    color: black;
+}
+
+.link-twitter {
+    color: #33CCFF;
+}
+
+.link-blog {
+	color: rgb(243, 111, 36);
+}
+
+.link-blog:hover {
+	color: rgb(211, 97, 32);
+}
+
+.background-details .detail {
+	display: table;
+	padding: 10px 0;
+}
+
+.background-details .detail .icon {
+	min-width: 45px;
+	max-width: 45px;
+	text-align: center;
+}
+
+.background-details .detail .title, .background-details .detail .icon {
+	color: # 707070;
+}
+
+.background-details .detail .icon,
+.background-details .detail .info {
+    display: table-cell;
+    padding: 0 10px;
+}
+
+.background-details .detail .info {
+    width: 100% ;
+}
+
+.timeline-circle {
+    width: 10px;
+    height: 10px;
+    border: 2px solid #e2e2e2;
+    border-radius: 50% ;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.timeline-content {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.clear-margin {
+    margin: 0;
+}
+
+.space-top {
+    margin-top: 10px;
+}
+
+.info .content.has-sidebar {
+    width: 80% ;
+    box-sizing: border-box;
+    float: left;
+    padding: 0 10px;
+}
+
+.info .sidebar {
+    margin-left: 80% ;
+    box-sizing: border-box;
+    padding: 10px;
+    border-left: 1px solid #ccc;
+}
+
+        </style>
+    </head>
+
+    <body>
+        <script>
+            window.onload = function () {
+                $(".background-card").css( "min-height", window.screen.availHeight + "px" );
+            }
+        </script>
+        <div class="container-fluid">
+            <div class="row main clearfix">
+                <section class="col-md-3 card-wrapper affix">
+                    <div class="card profile-card">
+                        <div class="profile-pic">
+                            <img class="media-object img-circle center-block"  data-src="holder.js/64x64"
+                                alt="64x64" src="http://www.gravatar.com/avatar/db5706130b6dac569277a4cc8498a597?s=100&amp;r=pg&amp;d=mm" style="width: 100px; height: 100px;">
+                        </div>
+                        
+                            <h3 class="text-center text-bolder"> </h3>
+                            <h5 class="text-muted text-center"></h5>
+                            <hr>
+
+                            <div class="contact-details clearfix">
+
+                                
+                                    <div class="detail">
+                                        <span class="icon">
+                                            <i class="fa fa-lg fa-location-arrow"></i>
+                                        </span>
+
+                                        
+                                            <span class="info">
+                                                Nairobi, ,
+                                                Kenya
+                                            </span>
+                                        
+                                    </div>
+                                
+
+                                
+                                    <div class="detail">
+                                        <span class="icon">
+                                            <i class="fa fa-lg fa-phone"></i>
+                                        </span>
+
+                                        <span class="info">
+                                            +254 770630771
+                                        </span>
+                                    </div>
+                                
+
+                                
+                                    <div class="detail">
+                                        <span class="icon">
+                                            <i class="fa fa-lg fa-envelope"></i>
+                                        </span>
+
+                                        <span class="info">
+                                            jacob@chenchatech.com
+                                        </span>
+                                    </div>
+                                
+
+                                
+                            </div>
+
+                            <hr>
+
+                            <div class="social-links text-center">
+                                
+                                    <a class="fa fa-github fa-2x social-link link-github"
+                                           href="http://www.github.com/prodeveloper" target="_blank"></a>
+                                
+                                
+                                    <a class="fa fa-twitter fa-2x social-link link-twitter"
+                                           href="http://www.twitter.com/jchex" target="_blank"></a>
+                                
+                                
+                                    <a class="fa fa-rss fa-2x social-link link-blog"
+                                           href="http://chenchatech.com/" target="_blank"></a>
+                                
+                            </div>
+                        
+                    </div>
+                </section>
+
+                <section class="col-md-9 card-wrapper pull-right">
+                    <div class="card background-card">
+                        <h4 class="text-uppercase text-bolder">Background</h4>
+                        <hr>
+
+                        <div class="background-details">
+                            <div class="detail">
+                                <div class="icon">
+                                    <i class="fa fa-lg fa-user"></i>
+                                </div>
+                                <div class="info">
+                                    <h4 class="title text-uppercase">
+                                        About
+                                    </h4>
+
+                                    <div class="content">
+                                        I am self taught developer passionate about API Engineering. I strongly believe that each and every person should do all that is possible to add value to their community, be it an open source tool that they use daily or a user group they attend monthly. While on user groups, I run the PHP Kenya User group (http://php.co.ke/) That meets once every month. My non-work interests generally revolve around astronomy and physics, so next time you need to know about the kerr of our resident blackhole, you know who to call. My workflow philosophy, if it can be automated, automate it!  To know more about me please check out my github profile https://github.com/prodeveloper and my blog http://blog.chenchatech.com/ for more details. I also tweet alot about tech @jchex.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="detail">
+                                <div class="icon">
+                                    <i class="fa fa-lg fa-building"></i>
+                                </div>
+                                <div class="info">
+                                    <h4 class="title text-uppercase">
+                                        Work Experience
+                                    </h4>
+
+                                    <ul class="list-unstyled">
+                                        
+                                            <li class="card card-nested clearfix">
+                                                <div class="content has-sidebar">
+                                                    <p><strong>Developer</strong>,&nbsp;iHub</p>
+                                                    <p>Lead development and maintainance of iHub community projects</p>
+                                                    
+                                                        <ul>
+                                                            
+                                                                <li> Spearheaded development of community portal. http://community.ihub.co.ke/login </li>
+                                                            
+                                                                <li> Introduced HA Proxy within the server architecture to enable maximum use of all the clients servers </li>
+                                                            
+                                                                <li> Brought all the code to version control and introduced Golden Master tests for existing legacy software </li>
+                                                            
+                                                        </ul>
+                                                    
+                                                </div>
+
+                                                <div class="sidebar text-muted text-center">
+                                                    <p>
+                                                        <strong>Joined:</strong>&nbsp;
+                                                        Oct, 2013
+                                                    </p>
+                                                    <p>
+                                                        
+                                                            <span class="label label-success">
+                                                                Currently Working
+                                                            </span>
+                                                        
+                                                    </p>
+                                                    <p>
+                                                        (11 months)
+                                                    </p>
+                                                </div>
+                                            </li>
+                                        
+                                            <li class="card card-nested clearfix">
+                                                <div class="content has-sidebar">
+                                                    <p><strong>Lead Developer</strong>,&nbsp;intaqt</p>
+                                                    <p>Provide direction on architecture of the core AI matching engine for jobkikr</p>
+                                                    
+                                                        <ul>
+                                                            
+                                                                <li> Designed initial matching engine </li>
+                                                            
+                                                                <li> Optimized entire application </li>
+                                                            
+                                                                <li> Setup the platform on which the matching engine runs </li>
+                                                            
+                                                        </ul>
+                                                    
+                                                </div>
+
+                                                <div class="sidebar text-muted text-center">
+                                                    <p>
+                                                        <strong>Joined:</strong>&nbsp;
+                                                        Jan, 2013
+                                                    </p>
+                                                    <p>
+                                                        
+                                                            <span class="label label-success">
+                                                                Currently Working
+                                                            </span>
+                                                        
+                                                    </p>
+                                                    <p>
+                                                        (1 year 8 months)
+                                                    </p>
+                                                </div>
+                                            </li>
+                                        
+                                            <li class="card card-nested clearfix">
+                                                <div class="content has-sidebar">
+                                                    <p><strong>Research Manager</strong>,&nbsp;Special Learning</p>
+                                                    <p>Lead initiative to research on potential leads for the organization</p>
+                                                    
+                                                        <ul>
+                                                            
+                                                                <li> Played research role in internationalization of the application </li>
+                                                            
+                                                                <li> Streamlined asset management process </li>
+                                                            
+                                                        </ul>
+                                                    
+                                                </div>
+
+                                                <div class="sidebar text-muted text-center">
+                                                    <p>
+                                                        <strong>Joined:</strong>&nbsp;
+                                                        Mar, 2012
+                                                    </p>
+                                                    <p>
+                                                        
+                                                            <strong>Left:</strong>&nbsp;
+                                                            Sep, 2013
+                                                        
+                                                    </p>
+                                                    <p>
+                                                        (1 year 7 months)
+                                                    </p>
+                                                </div>
+                                            </li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="detail">
+                                <div class="icon">
+                                    <i class="fa fa-lg fa-code"></i>
+                                </div>
+                                <div class="info">
+                                    <h4 class="title text-uppercase">
+                                        Skills
+                                    </h4>
+
+                                    <div class="content">
+                                        <ul class="list-unstyled">
+                                            
+                                                <li class="card card-nested">
+                                                    <strong>Web Development</strong>
+
+                                                    <div class="space-top">
+                                                        
+                                                            <span class="label label-primary">Laravel</span>
+                                                        
+                                                            <span class="label label-primary">PHP</span>
+                                                        
+                                                            <span class="label label-primary">Nginx</span>
+                                                        
+                                                            <span class="label label-primary">MySQL/Postgres</span>
+                                                        
+                                                            <span class="label label-primary">Beanstalkd</span>
+                                                        
+                                                            <span class="label label-primary">PHPCI</span>
+                                                        
+                                                            <span class="label label-primary">Vagrant (Homestead)</span>
+                                                        
+                                                            <span class="label label-primary">Codeception</span>
+                                                        
+                                                            <span class="label label-primary">Envoy</span>
+                                                        
+                                                            <span class="label label-primary">Git</span>
+                                                        
+                                                    </div>
+                                                </li>
+                                            
+                                                <li class="card card-nested">
+                                                    <strong>API Development</strong>
+
+                                                    <div class="space-top">
+                                                        
+                                                            <span class="label label-primary">REST</span>
+                                                        
+                                                            <span class="label label-primary">API Centric Design</span>
+                                                        
+                                                            <span class="label label-primary">JSON</span>
+                                                        
+                                                            <span class="label label-primary">JSON-RPC</span>
+                                                        
+                                                            <span class="label label-primary">XMLRPC</span>
+                                                        
+                                                    </div>
+                                                </li>
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="detail">
+                                <div class="icon">
+                                    <i class="fa fa-lg fa-mortar-board"></i>
+                                </div>
+                                <div class="info">
+                                    <h4 class="title text-uppercase">
+                                        Education
+                                    </h4>
+
+                                    <div class="content">
+                                        <ul class="list-unstyled">
+                                            
+                                                <li class="card card-nested">
+                                                    <p>
+                                                        <strong>Actuarial Science, Bachelor</strong>,&nbsp;
+                                                        University of Nairobi
+                                                        <small class="text-muted pull-right">
+                                                            2007-07-01 - 2011-07-01
+                                                        </small>
+                                                    </p>
+                                                    <div class="space-top">
+                                                        
+                                                    </div>
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+                                <div class="detail">
+                                    <div class="icon">
+                                        <i class="fa fa-lg fa-thumbs-up"></i>
+                                    </div>
+                                    <div class="info">
+                                        <h4 class="title text-uppercase">
+                                            References
+                                        </h4>
+
+                                        <div class="content">
+                                            <ul class="list-unstyled">
+                                                
+                                                    <li class="card card-nested">
+                                                        <p>
+                                                            <strong>Donna Hoppestad</strong>
+                                                        </p>
+                                                        <p class="clear-margin">Jacob is a true professional. My job was done perfectly, on time, and with no trouble at all. I totally recommend Jacob, and will use him whenever I can!</p>
+                                                    </li>
+                                                
+                                                    <li class="card card-nested">
+                                                        <p>
+                                                            <strong>Azeem Ahmed</strong>
+                                                        </p>
+                                                        <p class="clear-margin">Jacob Chencha is Bad Ass You NEED on your team</p>
+                                                    </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+
+                        </div>
+                    </div>
+                </section>
+            </div>
         </div>
-        <div class="col-md-6">
-        <img class="media-object img-circle pull-right" src="http://www.gravatar.com/avatar/203c8720879b9189a9f21837b5553953.jpg" alt="64x64" src="" style="width: 100px; height: 100px; margin-top: 20px;">
 
-        </div>
-        </div>
-      <hr style="color: #ccc; height: 4px;" />
-      <section class="row">
-        <header class="col-md-3">
-          <h3>About</h3>
-        </header>
-        <div class="col-md-9">
-        <p>I hold a BSC Actuarial Science Degree from University of Nairobi, Part 1 CPA qualification from KASNEB and two passed SOA papers. I am a self taught developer and currently work as consultant developer for iHub Nairobi. My work at the iHub primarily involves maintaining and building of new services that serve the tech community in Africa. My non-work interests generally revolve around astronomy and physics. My workflow philosophy, if it can be automated, automate it! </p>
-        <strong>Twitter:</strong> <a href="https://twitter.com/jchex">@jchex</a><br />
-        <strong>Github:</strong> <a href="https://github.com/prodeveloper">prodeveloper</a><br />
-        </div>
-      </section>
-      <section class="row">
-        <header class="col-md-3">
-          <h3>Work Experience</h3>
-        </header>
-        <div class="col-md-9">
-          <div class="skills">
-            <h3>iHub</h3>
-            <strong>Consultant Software Engineer</strong>
-            <p>2013 - To Date</p>
-            <p>Lead development and maintainance of iHub community projects</p>
-            <ul>
-              <li>Spearheaded development of community portal. http:&#x2F;&#x2F;community.ihub.co.ke&#x2F;login</li>
-              <li>Introduced HA Proxy within the server architecture to enable maximum use of all the clients servers</li>
-              <li>Brought all the code to version control and introduced Golden Master tests for existing legacy software</li>
-            </ul>
-            <hr />
-          </div>
-        </div>
-      </section>
-
-      <section class="row">
-        <header class="col-md-3">
-          <h3>Education</h3>
-        </header>
-        <div class="col-md-9">
-          <div class="skills">
-            <h3>University of Nairobi</h3>
-            <h4>Actuarial Science, Bachelor</h4>
-            <p>2007 - 2011</p>
-            <p></p>
-            <ul>
-            </ul>
-            <hr />
-          </div>
-        </div>
-      </section>
-      <section class="row">
-        <header class="col-md-3">
-          <h3>Skills</h3>
-        </header>
-        <div class="col-md-9">
-          <div class="row-fluid skills">
-            <ul class="col-md-6">
-
-              <li>
-                <h4>Web Development</h4>
-                <ul>
-                  <li>Laravel</li>
-                  <li>PHP</li>
-                  <li>Nginx</li>
-                  <li>MySQL&#x2F;Postgres</li>
-                  <li>Beanstalkd</li>
-                  <li>PHPCI</li>
-                  <li>Vagrant (Homestead)</li>
-                  <li>Codeception</li>
-                  <li>Envoy</li>
-                  <li>Git</li>
-                </ul>
-              </li>
-            </ul>
-            <ul class="col-md-6">
-
-              <li>
-                <h4>API Development</h4>
-                <ul>
-                  <li>REST</li>
-                  <li>API Centric Design</li>
-                  <li>JSON</li>
-                  <li>JSON-RPC</li>
-                  <li>XMLRPC</li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-      <section class="row">
-        <header class="col-md-3">
-          <h3>References</h3>
-        </header>
-        <div class="col-md-9">
-          <div class="row-fluid skills">
-
-            <p>Jacob is a true professional. My job was done perfectly, on time, and with no trouble at all. I totally recommend Jacob, and will use him whenever I can! -
-              <strong>Donna Hoppestad</strong>
-            </p>
-
-            <p>Jacob Chencha is Bad Ass You NEED on your team -
-              <strong>Azeem Ahmed</strong>
-            </p>
-          </div>
-        </div>
-      </section>
-
-    </div>
-  </div>
-</div>
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-  </body>
+        <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    </body>
 </html>
