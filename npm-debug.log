@@ -1,0 +1,198 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/jacob/.nvm/v0.10.12/bin/node',
+1 verbose cli   '/home/jacob/.nvm/v0.10.12/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'resume-cli' ]
+2 info using npm@1.2.32
+3 info using node@v0.10.12
+4 verbose read json /home/jacob/.nvm/v0.10.12/lib/package.json
+5 verbose read json /home/jacob/.nvm/v0.10.12/lib/package.json
+6 verbose cache add [ 'resume-cli', null ]
+7 verbose cache add name=undefined spec="resume-cli" args=["resume-cli",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'resume-cli',
+8 verbose parsed url   path: 'resume-cli',
+8 verbose parsed url   href: 'resume-cli' }
+9 silly lockFile 71bc606c-resume-cli resume-cli
+10 verbose lock resume-cli /home/jacob/.npm/71bc606c-resume-cli.lock
+11 silly lockFile 71bc606c-resume-cli resume-cli
+12 silly lockFile 71bc606c-resume-cli resume-cli
+13 verbose addNamed [ 'resume-cli', '' ]
+14 verbose addNamed [ null, '' ]
+15 silly lockFile e73b2cad-resume-cli resume-cli@
+16 verbose lock resume-cli@ /home/jacob/.npm/e73b2cad-resume-cli.lock
+17 silly addNameRange { name: 'resume-cli', range: '', hasData: false }
+18 verbose url raw resume-cli
+19 verbose url resolving [ 'https://registry.npmjs.org/', './resume-cli' ]
+20 verbose url resolved https://registry.npmjs.org/resume-cli
+21 info trying registry request attempt 1 at 09:34:34
+22 http GET https://registry.npmjs.org/resume-cli
+23 http 200 https://registry.npmjs.org/resume-cli
+24 silly registry.get cb [ 200,
+24 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+24 silly registry.get     etag: '"9K3DZ175D2QI9Y9THCK8N1KI"',
+24 silly registry.get     'content-type': 'application/json',
+24 silly registry.get     'cache-control': 'max-age=60',
+24 silly registry.get     'content-length': '78280',
+24 silly registry.get     'accept-ranges': 'bytes',
+24 silly registry.get     date: 'Wed, 27 May 2015 06:34:36 GMT',
+24 silly registry.get     via: '1.1 varnish',
+24 silly registry.get     age: '0',
+24 silly registry.get     connection: 'keep-alive',
+24 silly registry.get     'x-served-by': 'cache-ams4125-AMS',
+24 silly registry.get     'x-cache': 'MISS',
+24 silly registry.get     'x-cache-hits': '0',
+24 silly registry.get     'x-timer': 'S1432708475.241017,VS0,VE947',
+24 silly registry.get     vary: 'Accept' } ]
+25 silly addNameRange number 2 { name: 'resume-cli', range: '', hasData: true }
+26 silly addNameRange versions [ 'resume-cli',
+26 silly addNameRange   [ '0.0.0',
+26 silly addNameRange     '0.0.1',
+26 silly addNameRange     '0.0.2',
+26 silly addNameRange     '0.0.3',
+26 silly addNameRange     '0.0.4',
+26 silly addNameRange     '0.0.5',
+26 silly addNameRange     '0.0.6',
+26 silly addNameRange     '0.0.7',
+26 silly addNameRange     '0.0.8',
+26 silly addNameRange     '0.0.9',
+26 silly addNameRange     '0.0.11',
+26 silly addNameRange     '0.0.12',
+26 silly addNameRange     '0.0.13',
+26 silly addNameRange     '0.0.14',
+26 silly addNameRange     '0.0.15',
+26 silly addNameRange     '0.0.16',
+26 silly addNameRange     '0.0.17',
+26 silly addNameRange     '0.0.18',
+26 silly addNameRange     '0.0.19',
+26 silly addNameRange     '0.0.20',
+26 silly addNameRange     '0.0.21',
+26 silly addNameRange     '0.0.22',
+26 silly addNameRange     '0.0.23',
+26 silly addNameRange     '0.0.24',
+26 silly addNameRange     '0.0.25',
+26 silly addNameRange     '0.0.26',
+26 silly addNameRange     '0.0.27',
+26 silly addNameRange     '0.0.28',
+26 silly addNameRange     '0.0.29',
+26 silly addNameRange     '0.0.30',
+26 silly addNameRange     '0.0.31',
+26 silly addNameRange     '0.0.32',
+26 silly addNameRange     '0.0.33',
+26 silly addNameRange     '0.1.33',
+26 silly addNameRange     '0.1.32',
+26 silly addNameRange     '0.2.0',
+26 silly addNameRange     '0.2.1',
+26 silly addNameRange     '0.2.2',
+26 silly addNameRange     '0.2.3',
+26 silly addNameRange     '0.2.4',
+26 silly addNameRange     '0.2.5',
+26 silly addNameRange     '0.2.6',
+26 silly addNameRange     '0.2.7',
+26 silly addNameRange     '0.3.0',
+26 silly addNameRange     '0.3.1',
+26 silly addNameRange     '0.3.2',
+26 silly addNameRange     '0.3.3',
+26 silly addNameRange     '0.3.4',
+26 silly addNameRange     '0.3.5',
+26 silly addNameRange     '0.3.6',
+26 silly addNameRange     '0.3.7',
+26 silly addNameRange     '0.3.8',
+26 silly addNameRange     '0.3.9',
+26 silly addNameRange     '0.3.10',
+26 silly addNameRange     '0.3.11',
+26 silly addNameRange     '0.3.12',
+26 silly addNameRange     '0.3.13' ] ]
+27 verbose addNamed [ 'resume-cli', '0.3.13' ]
+28 verbose addNamed [ '0.3.13', '0.3.13' ]
+29 silly lockFile f53e6018-resume-cli-0-3-13 resume-cli@0.3.13
+30 verbose lock resume-cli@0.3.13 /home/jacob/.npm/f53e6018-resume-cli-0-3-13.lock
+31 silly lockFile 65513bd2-resume-cli-resume-cli-0-3-13-tgz https://registry.npmjs.org/resume-cli/-/resume-cli-0.3.13.tgz
+32 verbose lock https://registry.npmjs.org/resume-cli/-/resume-cli-0.3.13.tgz /home/jacob/.npm/65513bd2-resume-cli-resume-cli-0-3-13-tgz.lock
+33 verbose addRemoteTarball [ 'https://registry.npmjs.org/resume-cli/-/resume-cli-0.3.13.tgz',
+33 verbose addRemoteTarball   'e57dbf049f7bcf723d0eeceaf5754aa873d15b52' ]
+34 info retry fetch attempt 1 at 09:34:36
+35 verbose fetch to= /home/jacob/tmp/npm-9927/1432708476740-0.4362478826660663/tmp.tgz
+36 http GET https://registry.npmjs.org/resume-cli/-/resume-cli-0.3.13.tgz
+37 http 200 https://registry.npmjs.org/resume-cli/-/resume-cli-0.3.13.tgz
+38 verbose tar unpack /home/jacob/tmp/npm-9927/1432708476740-0.4362478826660663/tmp.tgz
+39 silly lockFile 26aa0391-76740-0-4362478826660663-package tar:///home/jacob/tmp/npm-9927/1432708476740-0.4362478826660663/package
+40 verbose lock tar:///home/jacob/tmp/npm-9927/1432708476740-0.4362478826660663/package /home/jacob/.npm/26aa0391-76740-0-4362478826660663-package.lock
+41 silly lockFile c2547128-76740-0-4362478826660663-tmp-tgz tar:///home/jacob/tmp/npm-9927/1432708476740-0.4362478826660663/tmp.tgz
+42 verbose lock tar:///home/jacob/tmp/npm-9927/1432708476740-0.4362478826660663/tmp.tgz /home/jacob/.npm/c2547128-76740-0-4362478826660663-tmp-tgz.lock
+43 silly gunzTarPerm modes [ '755', '644' ]
+44 silly gunzTarPerm extractEntry package.json
+45 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+46 silly gunzTarPerm extractEntry .npmignore
+47 silly gunzTarPerm modified mode [ '.npmignore', 436, 420 ]
+48 silly gunzTarPerm extractEntry README.md
+49 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+50 silly gunzTarPerm extractEntry LICENSE
+51 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+52 silly gunzTarPerm extractEntry index.js
+53 silly gunzTarPerm modified mode [ 'index.js', 509, 493 ]
+54 silly gunzTarPerm extractEntry .travis.yml
+55 silly gunzTarPerm modified mode [ '.travis.yml', 436, 420 ]
+56 silly gunzTarPerm extractEntry lib/builder.js
+57 silly gunzTarPerm modified mode [ 'lib/builder.js', 436, 420 ]
+58 silly gunzTarPerm extractEntry lib/index.js
+59 silly gunzTarPerm modified mode [ 'lib/index.js', 436, 420 ]
+60 silly gunzTarPerm extractEntry lib/init.js
+61 silly gunzTarPerm modified mode [ 'lib/init.js', 436, 420 ]
+62 silly gunzTarPerm extractEntry lib/login.js
+63 silly gunzTarPerm modified mode [ 'lib/login.js', 436, 420 ]
+64 silly gunzTarPerm extractEntry lib/publish.js
+65 silly gunzTarPerm modified mode [ 'lib/publish.js', 436, 420 ]
+66 silly gunzTarPerm extractEntry lib/exportResume.js
+67 silly gunzTarPerm modified mode [ 'lib/exportResume.js', 436, 420 ]
+68 silly gunzTarPerm extractEntry lib/serve.js
+69 silly gunzTarPerm modified mode [ 'lib/serve.js', 436, 420 ]
+70 silly gunzTarPerm extractEntry lib/settings.js
+71 silly gunzTarPerm modified mode [ 'lib/settings.js', 436, 420 ]
+72 silly gunzTarPerm extractEntry lib/test.js
+73 silly gunzTarPerm modified mode [ 'lib/test.js', 436, 420 ]
+74 silly gunzTarPerm extractEntry lib/version.js
+75 silly gunzTarPerm modified mode [ 'lib/version.js', 436, 420 ]
+76 silly gunzTarPerm extractEntry lib/waterfallArray.js
+77 silly gunzTarPerm modified mode [ 'lib/waterfallArray.js', 436, 420 ]
+78 silly gunzTarPerm extractEntry lib/register.js
+79 silly gunzTarPerm modified mode [ 'lib/register.js', 436, 420 ]
+80 silly gunzTarPerm extractEntry test/index.js
+81 silly gunzTarPerm modified mode [ 'test/index.js', 436, 420 ]
+82 verbose read json /home/jacob/tmp/npm-9927/1432708476740-0.4362478826660663/package/package.json
+83 silly lockFile 26aa0391-76740-0-4362478826660663-package tar:///home/jacob/tmp/npm-9927/1432708476740-0.4362478826660663/package
+84 silly lockFile 26aa0391-76740-0-4362478826660663-package tar:///home/jacob/tmp/npm-9927/1432708476740-0.4362478826660663/package
+85 silly lockFile c2547128-76740-0-4362478826660663-tmp-tgz tar:///home/jacob/tmp/npm-9927/1432708476740-0.4362478826660663/tmp.tgz
+86 silly lockFile c2547128-76740-0-4362478826660663-tmp-tgz tar:///home/jacob/tmp/npm-9927/1432708476740-0.4362478826660663/tmp.tgz
+87 verbose from cache /home/jacob/tmp/npm-9927/1432708476740-0.4362478826660663/package/package.json
+88 silly lockFile 65513bd2-resume-cli-resume-cli-0-3-13-tgz https://registry.npmjs.org/resume-cli/-/resume-cli-0.3.13.tgz
+89 silly lockFile 65513bd2-resume-cli-resume-cli-0-3-13-tgz https://registry.npmjs.org/resume-cli/-/resume-cli-0.3.13.tgz
+90 silly lockFile f53e6018-resume-cli-0-3-13 resume-cli@0.3.13
+91 silly lockFile f53e6018-resume-cli-0-3-13 resume-cli@0.3.13
+92 silly lockFile e73b2cad-resume-cli resume-cli@
+93 silly lockFile e73b2cad-resume-cli resume-cli@
+94 error Error: EACCES, mkdir '/home/jacob/.npm/resume-cli/0.3.13'
+94 error  { [Error: EACCES, mkdir '/home/jacob/.npm/resume-cli/0.3.13']
+94 error   errno: 3,
+94 error   code: 'EACCES',
+94 error   path: '/home/jacob/.npm/resume-cli/0.3.13' }
+95 error Please try running this command again as root/Administrator.
+96 error System Linux 3.13.0-53-generic
+97 error command "/home/jacob/.nvm/v0.10.12/bin/node" "/home/jacob/.nvm/v0.10.12/bin/npm" "install" "-g" "resume-cli"
+98 error cwd /var/www/personal/resume
+99 error node -v v0.10.12
+100 error npm -v 1.2.32
+101 error path /home/jacob/.npm/resume-cli/0.3.13
+102 error code EACCES
+103 error errno 3
+104 error stack Error: EACCES, mkdir '/home/jacob/.npm/resume-cli/0.3.13'
+105 verbose exit [ 3, true ]
